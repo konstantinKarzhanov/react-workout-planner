@@ -1,8 +1,13 @@
 import React from "react";
 import "./App.css";
+import Header from "./components/Header";
+import MainText from "./components/MainText";
 
-function App() {
-  return;
-}
+const App = () => (
+  <>
+    <Header />
+    <MainText />
+  </>
+);
 
 export default App;
