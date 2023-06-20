@@ -1,0 +1,24 @@
+#clear-bttn {
+  background: #f12929;
+  border-radius: 8px;
+  width: 455px;
+  height: 75px;
+}
+
+#clear-text {
+  position: relative;
+  top: 20%;
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+#clear-bttn:hover {
+  background-color: #ff5c5c;
+  cursor: pointer;
+}
