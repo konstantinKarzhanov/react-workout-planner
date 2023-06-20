@@ -1,0 +1,22 @@
+#main-header {
+  width: 1512px;
+  height: 183px;
+  top: 0px;
+  background: #574fc6;
+  margin: auto;
+}
+
+#header-text {
+  position: relative;
+  margin: auto;
+  top: 46px;
+
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+
+  color: #ffffff;
+}
