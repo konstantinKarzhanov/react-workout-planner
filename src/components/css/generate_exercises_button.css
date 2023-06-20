@@ -1,0 +1,24 @@
+#gen-ex-bttn {
+  background: #303032;
+  border-radius: 8px;
+  width: 455px;
+  height: 75px;
+}
+
+#gen-ex-text {
+  position: relative;
+  top: 20%;
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+#gen-ex-bttn:hover {
+  background-color: #464647;
+  cursor: pointer;
+}
