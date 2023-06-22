@@ -7,16 +7,16 @@ import GenerateExercisesButton from "./components/GenerateExercisesButton";
 import ClearButton from "./components/ClearButton";
 import ContainerCarousel from "./components/ContainerCarousel";
 
-const App = () => (
+const App = () => {
   return (
-  <>
-    <Header />
-    <MainText />
-    <BodyPartList />
-    <GenerateExercisesButton />
-    <ClearButton />
-  </>
+    <>
+      <Header />
+      <MainText />
+      <BodyPartList />
+      <GenerateExercisesButton />
+      <ClearButton />
+    </>
   );
-);
+};
 
 export default App;
