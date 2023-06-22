@@ -5,8 +5,10 @@ import MainText from "./components/MainText";
 import BodyPartList from "./components/BodyPartList";
 import GenerateExercisesButton from "./components/GenerateExercisesButton";
 import ClearButton from "./components/ClearButton";
+import ContainerCarousel from "./components/ContainerCarousel";
 
 const App = () => (
+  return (
   <>
     <Header />
     <MainText />
@@ -14,6 +16,7 @@ const App = () => (
     <GenerateExercisesButton />
     <ClearButton />
   </>
+  );
 );
 
 export default App;
