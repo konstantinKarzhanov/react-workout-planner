@@ -1,9 +1,5 @@
 #main-text {
-  position: absolute;
-  width: 1278px;
-  height: 128px;
-  left: calc(50% - 1278px / 2);
-  top: 337px;
+  position: relative;
   font-family: "Kanit", sans-serif;
   font-style: normal;
   font-weight: 200;

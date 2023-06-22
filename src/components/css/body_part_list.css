@@ -1,0 +1,10 @@
+#body-part-list {
+  margin: auto;
+  width: 1512px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  place-items: center;
+}
