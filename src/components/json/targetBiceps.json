@@ -1,0 +1,1210 @@
+[
+  {
+    "bodyPart": "upper arms",
+    "equipment": "band",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/VAZka5djoeT-rW",
+    "id": "0968",
+    "name": "band alternating biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "band",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/dLXym4i3lOUsvG",
+    "id": "0976",
+    "name": "band concentration curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "band",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/AlCMflZye0F6Jb",
+    "id": "0986",
+    "name": "band one arm overhead biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/kKr8q8QMgf8otE",
+    "id": "0023",
+    "name": "barbell alternate biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/t8AqWYR03pxEmC",
+    "id": "2407",
+    "name": "barbell biceps curl (with arm blaster)",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/5cPmAmoJh-PfIu",
+    "id": "0031",
+    "name": "barbell curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/p1tecQmBJn4omF",
+    "id": "0038",
+    "name": "barbell drag curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/zO29L7iPctTHRZ",
+    "id": "0059",
+    "name": "barbell lying preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/CiLxDTFN4U54H-",
+    "id": "0070",
+    "name": "barbell preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/RQndJKO1nhz83i",
+    "id": "0072",
+    "name": "barbell prone incline curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/qUXkXGcauhEug8",
+    "id": "0080",
+    "name": "barbell reverse curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/BdkqGJRHhhTRWL",
+    "id": "0081",
+    "name": "barbell reverse preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/rg1K9Tg3kpVtXW",
+    "id": "0089",
+    "name": "barbell seated close-grip concentration curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/Ck5hzWwH-Yr4UD",
+    "id": "0106",
+    "name": "barbell standing close grip curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/tyo9xGN0GOS8lQ",
+    "id": "2414",
+    "name": "barbell standing concentration curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/ykyY5wLU35RY1m",
+    "id": "0110",
+    "name": "barbell standing reverse grip curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/aSGiI8phaY-fAW",
+    "id": "1629",
+    "name": "barbell standing wide grip biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/jW90v-g1L0tZ5P",
+    "id": "0113",
+    "name": "barbell standing wide-grip curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "body weight",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/PdztWemIFJfNIF",
+    "id": "1770",
+    "name": "biceps leg concentration curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "body weight",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/SNqAHgre-6afZC",
+    "id": "0139",
+    "name": "biceps narrow pull-ups",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "body weight",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/sphCG8n56Hr9Xr",
+    "id": "0140",
+    "name": "biceps pull-up",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "body weight",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/jLAXbh3pmejUAI",
+    "id": "1769",
+    "name": "bodyweight side lying biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/4927WJyK-N-ySB",
+    "id": "1630",
+    "name": "cable close grip curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/G6GnpfQiFIXZYp",
+    "id": "1631",
+    "name": "cable concentration curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/QNPrsRgKgGwVVE",
+    "id": "0868",
+    "name": "cable curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/R2zoMmVpBU7Fjm",
+    "id": "1632",
+    "name": "cable drag curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/uLvsznMWoJ5NtQ",
+    "id": "0165",
+    "name": "cable hammer curl (with rope)",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/shDvJXMeFRpIMh",
+    "id": "1634",
+    "name": "cable lying bicep curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/qYkU3NWkv8tIgt",
+    "id": "0182",
+    "name": "cable lying close-grip curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/SMHuUaiN37xYkg",
+    "id": "0190",
+    "name": "cable one arm curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/GUl4ua1Da5CRbm",
+    "id": "1633",
+    "name": "cable one arm preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/q1jtlr27ux0-BN",
+    "id": "1635",
+    "name": "cable one arm reverse preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/FwlUztOZo-XG-q",
+    "id": "1636",
+    "name": "cable overhead curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/Km7cI-uCpxeVDP",
+    "id": "1637",
+    "name": "cable overhead curl on exercise ball",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/13nFHIS7tjLDxm",
+    "id": "0195",
+    "name": "cable preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/-bYzDJc-wzLAe7",
+    "id": "1638",
+    "name": "cable pulldown bicep curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/A5AKMtJ3HNbtLT",
+    "id": "0206",
+    "name": "cable reverse curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/ujzUC238zYOu7x",
+    "id": "1413",
+    "name": "cable reverse one arm curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/HYBEI1IxuoDGmK",
+    "id": "0209",
+    "name": "cable reverse preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/I8Y6amwb9EjIx2",
+    "id": "1639",
+    "name": "cable rope hammer preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/qq87rmAU-wf-3D",
+    "id": "1640",
+    "name": "cable rope one arm hammer preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/t0AGMz7NJVccva",
+    "id": "1641",
+    "name": "cable seated curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/mffBE4iu76I9vK",
+    "id": "1642",
+    "name": "cable seated one arm concentration curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/9rVV8ub2WVPUr0",
+    "id": "1643",
+    "name": "cable seated overhead curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/cRdBPV9kZ94VVi",
+    "id": "1644",
+    "name": "cable squatting curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/EHgoSFX49Ez7p0",
+    "id": "0229",
+    "name": "cable standing inner curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/SYsGQQALwGAacx",
+    "id": "0232",
+    "name": "cable standing pulldown (with rope)",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/xXS0H149Ly3roo",
+    "id": "1645",
+    "name": "cable two arm curl on incline bench",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/W9xitZdUKTqPH7",
+    "id": "0285",
+    "name": "dumbbell alternate biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/CR-f9IYWMk8CT2",
+    "id": "2403",
+    "name": "dumbbell alternate biceps curl (with arm blaster)",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/tveUzgci4BfCeG",
+    "id": "1646",
+    "name": "dumbbell alternate hammer preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/YDHbBABWR56cAP",
+    "id": "1647",
+    "name": "dumbbell alternate preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/WQ2yf09kAxrHkX",
+    "id": "1648",
+    "name": "dumbbell alternate seated hammer curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/BJgjvXCEIUhdOn",
+    "id": "1649",
+    "name": "dumbbell alternating bicep curl with leg raised on exercise ball",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/QEmRH3BL4ntmJ0",
+    "id": "1650",
+    "name": "dumbbell alternating seated bicep curl on exercise ball",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/-JT6LS9pEYMJ6A",
+    "id": "1651",
+    "name": "dumbbell bicep curl lunge with bowling motion",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/66OeYA28E6DNuu",
+    "id": "1652",
+    "name": "dumbbell bicep curl on exercise ball with leg raised",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/6qwsHhZVPryVU3",
+    "id": "1653",
+    "name": "dumbbell bicep curl with stork stance",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/lqEUhbVDucKaR9",
+    "id": "0294",
+    "name": "dumbbell biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/Ug2ve97BJhpAv8",
+    "id": "2401",
+    "name": "dumbbell biceps curl (with arm blaster)",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/OIKLHHhd6q2Fxt",
+    "id": "1654",
+    "name": "dumbbell biceps curl reverse",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/KfbDj4fEmkw-k6",
+    "id": "1655",
+    "name": "dumbbell biceps curl squat",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/kwEoNq0xCz-aDk",
+    "id": "1656",
+    "name": "dumbbell biceps curl v sit on bosu ball",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/E9eiFJgnB-rTF3",
+    "id": "0297",
+    "name": "dumbbell concentration curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/sjmuXpcdCn2BoM",
+    "id": "0298",
+    "name": "dumbbell cross body hammer curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/r5kL32C5gdFSLn",
+    "id": "1657",
+    "name": "dumbbell cross body hammer curl v. 2",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/cWD1fNsJmyl0WE",
+    "id": "0313",
+    "name": "dumbbell hammer curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/g2zguK9jZSg84g",
+    "id": "1659",
+    "name": "dumbbell hammer curl on exercise ball",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/0UEZ9qVl-DDj2X",
+    "id": "0312",
+    "name": "dumbbell hammer curl v. 2",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/yR3kKXqi3KPAJf",
+    "id": "2402",
+    "name": "dumbbell hammer curls (with arm blaster)",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/DwZ9mavZADsPym",
+    "id": "1664",
+    "name": "dumbbell high curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/vOfTFozUfQWRz3",
+    "id": "0315",
+    "name": "dumbbell incline biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/sVQuegWKIrgm11",
+    "id": "0318",
+    "name": "dumbbell incline curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/kFgWjB5kcRx9C-",
+    "id": "0317",
+    "name": "dumbbell incline curl v. 2",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/IFZT2YRcS83aoT",
+    "id": "0320",
+    "name": "dumbbell incline hammer curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/BwEMslyPBZ9PLR",
+    "id": "0322",
+    "name": "dumbbell incline inner biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/fKmqAvZAnTaddM",
+    "id": "1660",
+    "name": "dumbbell kneeling bicep curl exercise ball",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/cWmjEwY9XOVJCg",
+    "id": "1658",
+    "name": "dumbbell lunge with bicep curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/ojMX0GH5U4ETq5",
+    "id": "1661",
+    "name": "dumbbell lying supine biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/g0NC5U5Hwd6i78",
+    "id": "0350",
+    "name": "dumbbell lying supine curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/UpnW6yQklZSkzV",
+    "id": "1662",
+    "name": "dumbbell lying wide curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/UL9AI505M8ZOnJ",
+    "id": "0353",
+    "name": "dumbbell one arm concetration curl (on stability ball)",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/xL5NboTEKz62S4",
+    "id": "1663",
+    "name": "dumbbell one arm hammer preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/D8mhhYO9-ZwytQ",
+    "id": "1665",
+    "name": "dumbbell one arm prone curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/8xK75AfmDjeVWl",
+    "id": "1666",
+    "name": "dumbbell one arm prone hammer curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/VCZUK2AypAFN6F",
+    "id": "1414",
+    "name": "dumbbell one arm reverse preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/5NYhPSDt97iYQT",
+    "id": "1667",
+    "name": "dumbbell one arm reverse spider curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/gOiIhuit1Qy-sr",
+    "id": "1668",
+    "name": "dumbbell one arm seated bicep curl on exercise ball",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/1pP51fPTtYlGxw",
+    "id": "1669",
+    "name": "dumbbell one arm seated hammer curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/asVuOrzm2qtNho",
+    "id": "1670",
+    "name": "dumbbell one arm standing curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/g5geWI0E4w0VL4",
+    "id": "1671",
+    "name": "dumbbell one arm standing hammer curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/SxXAKuduOaAr6W",
+    "id": "1672",
+    "name": "dumbbell one arm zottman preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/0Ridjr8H-zt5c0",
+    "id": "0365",
+    "name": "dumbbell over bench neutral wrist curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/5x9BLZ5bDa9Cl4",
+    "id": "0366",
+    "name": "dumbbell over bench one arm  neutral wrist curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/enVOk-t3UPkE9N",
+    "id": "0370",
+    "name": "dumbbell peacher hammer curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/doCqRfl0NKpj4B",
+    "id": "0372",
+    "name": "dumbbell preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/gGtfR1R25ir9QO",
+    "id": "1673",
+    "name": "dumbbell preacher curl over exercise ball",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/8Jr2wPZWQHfHbH",
+    "id": "0374",
+    "name": "dumbbell prone incline curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/Sjp3kDjKU3t3wc",
+    "id": "1674",
+    "name": "dumbbell prone incline hammer curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/9MuG-l7FzLJAB6",
+    "id": "0382",
+    "name": "dumbbell revers grip biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/ry6MV-51niwskP",
+    "id": "0384",
+    "name": "dumbbell reverse preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/mJDjqfSBRTZ7UM",
+    "id": "1675",
+    "name": "dumbbell reverse spider curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/ROSUEkqe0B6Idj",
+    "id": "1676",
+    "name": "dumbbell seated alternate hammer curl on exercise ball",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/WFxdyjC4glVuvV",
+    "id": "1677",
+    "name": "dumbbell seated bicep curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/pXHIZ7ppOLZKhP",
+    "id": "0390",
+    "name": "dumbbell seated biceps curl (on stability ball)",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/OKhBaY5bwYTrkz",
+    "id": "3547",
+    "name": "dumbbell seated biceps curl to shoulder press",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/QxqPVkvzJHWjVg",
+    "id": "0391",
+    "name": "dumbbell seated curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/7dBJjUod1MNCHS",
+    "id": "1678",
+    "name": "dumbbell seated hammer curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/XsxhaU5xvUYtgT",
+    "id": "0393",
+    "name": "dumbbell seated inner biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/TQ3V8IxxLB2xQL",
+    "id": "0397",
+    "name": "dumbbell seated neutral wrist curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/-HjoRObflj73oQ",
+    "id": "1679",
+    "name": "dumbbell seated one arm bicep curl on exercise ball with leg raised",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/CIcQEIH3qDWwUf",
+    "id": "0402",
+    "name": "dumbbell seated preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/fhN6y9eGjmr-jB",
+    "id": "0403",
+    "name": "dumbbell seated revers grip concentration curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/Zuoj59aG0tgr-m",
+    "id": "3560",
+    "name": "dumbbell standing alternate hammer curl and press",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/1YYjGDYCMkr7om",
+    "id": "0416",
+    "name": "dumbbell standing biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/z0y8OUyEXfpbL5",
+    "id": "0418",
+    "name": "dumbbell standing concentration curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/7ra56QM2YjIToN",
+    "id": "2321",
+    "name": "dumbbell standing inner biceps curl v. 2",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/sptiIFVl7wRsv7",
+    "id": "0421",
+    "name": "dumbbell standing one arm concentration curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/f3vM-0zPanqtBi",
+    "id": "0422",
+    "name": "dumbbell standing one arm curl (over incline bench)",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/8l4N6lHMdHgmeE",
+    "id": "1680",
+    "name": "dumbbell standing one arm curl over incline bench",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/oTmG993FpAdTyt",
+    "id": "0425",
+    "name": "dumbbell standing one arm reverse curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/xjdpVlnUFjd1IM",
+    "id": "0428",
+    "name": "dumbbell standing preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/4ex1Rj07W8nGjV",
+    "id": "0429",
+    "name": "dumbbell standing reverse curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/OQZ8Jqmh36tNqr",
+    "id": "2293",
+    "name": "dumbbell standing zottman preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/KjWY6IMzCtKdhw",
+    "id": "1684",
+    "name": "dumbbell step up single leg balance with bicep curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/XwT8-9MHYLMcqp",
+    "id": "5201",
+    "name": "dumbbell waiter biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/9IlRyP-5OsnDrp",
+    "id": "0439",
+    "name": "dumbbell zottman curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "dumbbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/y2z2e6tsFl9kKC",
+    "id": "2294",
+    "name": "dumbbell zottman preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "ez barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/mWiavf54B6UZbm",
+    "id": "1682",
+    "name": "ez bar seated close grip concentration curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "ez barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/chUfcDq1QlVbRD",
+    "id": "1627",
+    "name": "ez barbell close grip preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "ez barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/8EFl15-OWBAwxH",
+    "id": "0446",
+    "name": "ez barbell close-grip curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "ez barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/jGIOgNiHhO9uRP",
+    "id": "0447",
+    "name": "ez barbell curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "ez barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/MTyVfldhHeJDMh",
+    "id": "0451",
+    "name": "ez barbell reverse grip curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "ez barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/KFQ85pFQiFMU7m",
+    "id": "0452",
+    "name": "ez barbell reverse grip preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "ez barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/Bclc3-z6menoUd",
+    "id": "1458",
+    "name": "ez barbell seated curls",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "ez barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/Q3gJ7FQfvWu3pe",
+    "id": "0454",
+    "name": "ez barbell spider curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "ez barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/UU96A3fwEIJ9Ja",
+    "id": "1628",
+    "name": "ez barbell spider curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "ez barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/wHKZ0YJ4KZmyid",
+    "id": "2404",
+    "name": "ez-bar biceps curl (with arm blaster)",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "ez barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/9SR70nwafun0Iu",
+    "id": "2741",
+    "name": "ez-barbell standing wide grip biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "kettlebell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/R1QUYz61tmlCot",
+    "id": "0525",
+    "name": "kettlebell bottoms up clean from the hang position",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "kettlebell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/El-n40VG7JR88b",
+    "id": "0526",
+    "name": "kettlebell double alternating hang clean",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "leverage machine",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/uAz6wh37VXVjPh",
+    "id": "0575",
+    "name": "lever bicep curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "leverage machine",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/BjoUTBHcJAFUan",
+    "id": "1615",
+    "name": "lever hammer grip preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "leverage machine",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/nNRQHpMUub-EvB",
+    "id": "0592",
+    "name": "lever preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "leverage machine",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/ixYOCu-0SvmpfX",
+    "id": "1614",
+    "name": "lever preacher curl v. 2",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "leverage machine",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/NXazmfjz5JqX16",
+    "id": "1616",
+    "name": "lever reverse grip preacher curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "olympic barbell",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/piVIQzYZn9boVx",
+    "id": "0636",
+    "name": "olympic barbell hammer curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "resistance band",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/qEZU3nj4k4tGUW",
+    "id": "3123",
+    "name": "resistance band seated biceps curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "smith machine",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/56q4jBA6Wz2y5C",
+    "id": "1683",
+    "name": "smith machine bicep curl",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "medicine ball",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/ty7pkGqsp5r7cm",
+    "id": "0847",
+    "name": "weighted seated bicep curl  (on stability ball)",
+    "target": "biceps"
+  },
+  {
+    "bodyPart": "upper arms",
+    "equipment": "weighted",
+    "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/NvgvOgotyLt7Ts",
+    "id": "0853",
+    "name": "weighted standing curl",
+    "target": "biceps"
+  }
+]
