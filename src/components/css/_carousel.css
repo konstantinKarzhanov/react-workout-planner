@@ -41,6 +41,8 @@ body {
   border: none;
   cursor: pointer;
   z-index: 1;
+  font-size: 40px;
+  color: white;
 }
 
 .btn-carousel:active {
