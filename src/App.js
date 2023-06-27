@@ -12,18 +12,13 @@ import Carousel from "./components/Carousel";
 import "./App.css";
 import "./components/css/_carousel.css";
 import allExercisesJSON from "./components/json/allExercises.json";
-import targetMusclesJSON from "./components/json/targetMuscles.json";
 
 const App = () => {
   // const apiUrl = "https://exercisedb.p.rapidapi.com/exercises";
-  // // const apiUrl =
-  // //   "https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=biceps";
-
   // const apiOptions = {
   //   method: "GET",
   //   headers: {
   //     "X-RapidAPI-Key": "4a8554f7a1mshbdce340f82597c2p12b5edjsndffa189d570f",
-  //     // "X-RapidAPI-Host": "exercises-by-api-ninjas.p.rapidapi.com",
   //     "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
   //   },
   // };
@@ -32,14 +27,10 @@ const App = () => {
   //   const request = await fetch(url, options);
   //   // const response = await request.text();
   //   const response = await request.json();
-  //   console.log(response);
-  //   const data = response.data;
-  //   const dataArr = data.map(({ avatar, email }) => {
-  //     return {
-  //       avatar,
-  //       email,
-  //     };
+  //   const dataArr = response.map(({ bodyPart, gifUrl, target }) => {
+  //     return { bodyPart, gifUrl, target };
   //   });
+
   //   setData(dataArr);
   // };
 
@@ -47,21 +38,29 @@ const App = () => {
   //   fetchData(apiUrl, apiOptions);
   // }, []);
 
-  const [groupsArr, setGroups] = useState([]);
   const [dataArr, setData] = useState([]);
+  const [groupsArr, setGroups] = useState([]);
 
-  const [selectedCardsArr, setSelectedCardsArr] = useState([]);
   const [selectedGroupsArr, setSelectedGroupsArr] = useState([]);
+  const [selectedCardsArr, setSelectedCardsArr] = useState([]);
 
   useEffect(() => {
-    // console.log(selectedCardsArr);
-    setGroups(targetMusclesJSON);
     setData(
-      allExercisesJSON.map(({ gifUrl, target, bodyPart }) => {
-        return { gifUrl, target, bodyPart };
+      allExercisesJSON.map(({ bodyPart, gifUrl, target }) => {
+        return { bodyPart, gifUrl, target };
       })
     );
   }, []);
+
+  useEffect(() => {
+    setGroups(
+      dataArr.reduce((acc, { target }) => {
+        !acc.includes(target) && acc.push(target);
+        return acc;
+      }, [])
+    );
+    console.log(groupsArr);
+  }, [dataArr]);
 
   const handleClickForm = (event) => {
     const target = event.target.closest('[id^="group-"]');
