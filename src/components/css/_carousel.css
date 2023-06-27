@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  width: 1512px;
+  margin: auto;
 }
 
 :root {
@@ -35,7 +37,7 @@ body {
 .btn-carousel {
   margin: 0.25rem 0;
   width: var(--btn-carousel-size);
-  background-color: magenta;
+  background-color: #574fc6;
   border: none;
   cursor: pointer;
   z-index: 1;
@@ -73,7 +75,6 @@ body {
 
 .selected {
   border: 2px solid magenta;
-  filter: blur(5px);
 }
 
 .form-groups {
@@ -87,5 +88,8 @@ body {
 
 .form-groups > label {
   padding: 1rem;
-  background-color: lightgreen;
+  background-color: #574fc6;
+  color: white;
+  border-radius: 8px;
+  font-family: "Kanit", sans-serif;
 }
