@@ -77,9 +77,9 @@ const Carousel = ({ data, setSelectedCardsArr }) => {
       }}
       className="carousel"
     >
-      <Button classValue="btn-carousel prev" value="prev" />
+      <Button classValue="btn-carousel prev" value="<" />
       <BoxCards xPosition={x} cardWidth={cardWidth} data={data} />
-      <Button classValue="btn-carousel next" value="next" />
+      <Button classValue="btn-carousel next" value=">" />
     </div>
   );
 };

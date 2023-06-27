@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-// import Header from "./components/Header";
-// import MainText from "./components/MainText";
-// import BodyPartList from "./components/BodyPartList";
-// import GenerateExercisesButton from "./components/GenerateExercisesButton";
-// import ClearButton from "./components/ClearButton";
+import Header from "./components/Header";
+import MainText from "./components/MainText";
 
 import Form from "./components/Form";
 import Carousel from "./components/Carousel";
@@ -14,29 +11,29 @@ import "./components/css/_carousel.css";
 import allExercisesJSON from "./components/json/allExercises.json";
 
 const App = () => {
-  // const apiUrl = "https://exercisedb.p.rapidapi.com/exercises";
-  // const apiOptions = {
-  //   method: "GET",
-  //   headers: {
-  //     "X-RapidAPI-Key": "4a8554f7a1mshbdce340f82597c2p12b5edjsndffa189d570f",
-  //     "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
-  //   },
-  // };
+  const apiUrl = "https://exercisedb.p.rapidapi.com/exercises";
+  const apiOptions = {
+    method: "GET",
+    headers: {
+      "X-RapidAPI-Key": "4a8554f7a1mshbdce340f82597c2p12b5edjsndffa189d570f",
+      "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
+    },
+  };
 
-  // const fetchData = async (url, options) => {
-  //   const request = await fetch(url, options);
-  //   // const response = await request.text();
-  //   const response = await request.json();
-  //   const dataArr = response.map(({ bodyPart, gifUrl, target }) => {
-  //     return { bodyPart, gifUrl, target };
-  //   });
+  const fetchData = async (url, options) => {
+    const request = await fetch(url, options);
+    // const response = await request.text();
+    const response = await request.json();
+    const dataArr = response.map(({ bodyPart, gifUrl, target }) => {
+      return { bodyPart, gifUrl, target };
+    });
 
-  //   setData(dataArr);
-  // };
+    setData(dataArr);
+  };
 
-  // useEffect(() => {
-  //   fetchData(apiUrl, apiOptions);
-  // }, []);
+  useEffect(() => {
+    fetchData(apiUrl, apiOptions);
+  }, []);
 
   const [dataArr, setData] = useState([]);
   const [groupsArr, setGroups] = useState([]);
@@ -80,11 +77,8 @@ const App = () => {
 
   return (
     <>
-      {/* <Header />
-        <MainText />
-        <BodyPartList />
-        <GenerateExercisesButton />
-        <ClearButton /> */}
+      <Header />
+      <MainText />
       <section>
         <Form
           onClick={(event) => {

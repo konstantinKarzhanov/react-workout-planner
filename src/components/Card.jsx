@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "./Image";
 import Checkbox from "./Checkbox";
 
