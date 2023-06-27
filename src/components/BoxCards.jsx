@@ -17,7 +17,7 @@ const BoxCards = ({ xPosition, cardWidth, data }) => {
             idValue={`card-${++index}`}
             cardWidth={cardWidth}
             srcUrl={item.gifUrl}
-            checkboxValue={item.target}
+            checkboxValue={item.name}
           />
         );
       })}
