@@ -50,10 +50,12 @@ const Carousel = ({ data, setSelectedCardsArr }) => {
     checkbox.checked = !checkbox.checked;
 
     if (checkbox.checked) {
-      setSelectedCardsArr((prev) => prev.concat(checkbox.value));
+      setSelectedCardsArr((prev) =>
+        prev.concat(data.filter((item) => item.name == checkbox.value))
+      );
     } else {
       setSelectedCardsArr((prev) => {
-        const position = prev.indexOf(checkbox.value);
+        const position = prev.findIndex((item) => item.name == checkbox.value);
         if (position != -1) return prev.toSpliced(position, 1);
       });
     }

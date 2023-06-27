@@ -27,8 +27,8 @@ const App = () => {
   //   const request = await fetch(url, options);
   //   // const response = await request.text();
   //   const response = await request.json();
-  //   const dataArr = response.map(({ bodyPart, gifUrl, target }) => {
-  //     return { bodyPart, gifUrl, target };
+  //   const dataArr = response.map(({ bodyPart, gifUrl, name, target }) => {
+  //     return { bodyPart, gifUrl, name, target };
   //   });
 
   //   setData(dataArr);
@@ -46,8 +46,8 @@ const App = () => {
 
   useEffect(() => {
     setData(
-      allExercisesJSON.map(({ bodyPart, gifUrl, target }) => {
-        return { bodyPart, gifUrl, target };
+      allExercisesJSON.map(({ bodyPart, gifUrl, name, target }) => {
+        return { bodyPart, gifUrl, name, target };
       })
     );
   }, []);
@@ -61,6 +61,10 @@ const App = () => {
     );
     console.log(groupsArr);
   }, [dataArr]);
+
+  useEffect(() => {
+    console.log(selectedCardsArr);
+  }, [selectedCardsArr]);
 
   const handleClickForm = (event) => {
     const target = event.target.closest('[id^="group-"]');
@@ -97,8 +101,8 @@ const App = () => {
         {selectedGroupsArr.map((item, index) => (
           <Carousel
             key={index}
-            data={dataArr.reduce((acc, { gifUrl, target, bodyPart }) => {
-              target === item && acc.push({ gifUrl, target, bodyPart });
+            data={dataArr.reduce((acc, current) => {
+              current.target === item && acc.push(current);
               return acc;
             }, [])}
             setSelectedCardsArr={setSelectedCardsArr}
