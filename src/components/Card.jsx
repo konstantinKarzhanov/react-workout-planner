@@ -9,7 +9,7 @@ const Card = ({ idValue, cardWidth, srcUrl, checkboxValue }) => {
 
   return (
     <div style={styleObj} className="card">
-      <Image srcUrl={srcUrl} altText="alt text placeholder" />
+      <Image srcUrl={srcUrl} altText={checkboxValue} />
       <Checkbox
         idValue={idValue}
         classValue="sr-only"
