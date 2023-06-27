@@ -73,7 +73,7 @@ const App = () => {
     } else {
       setSelectedGroupsArr((prev) => {
         const position = prev.indexOf(parent.textContent);
-        return prev.toSpliced(position, 1);
+        if (position != -1) return prev.toSpliced(position, 1);
       });
     }
     parent.classList.toggle("selected");
@@ -82,10 +82,10 @@ const App = () => {
   return (
     <>
       {/* <Header />
-      <MainText />
-      <BodyPartList />
-      <GenerateExercisesButton />
-      <ClearButton /> */}
+        <MainText />
+        <BodyPartList />
+        <GenerateExercisesButton />
+        <ClearButton /> */}
       <section>
         <Form
           onClick={(event) => {

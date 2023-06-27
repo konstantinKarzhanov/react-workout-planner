@@ -7,7 +7,7 @@ const Carousel = ({ data, setSelectedCardsArr }) => {
   const [count, setCount] = useState(0);
 
   const slideStep = 2;
-  const numVisibleCards = 5;
+  const numVisibleCards = 3;
   const cardWidth = 100 / numVisibleCards;
   const endPoint = (data.length - numVisibleCards) / slideStep;
 
@@ -54,7 +54,7 @@ const Carousel = ({ data, setSelectedCardsArr }) => {
     } else {
       setSelectedCardsArr((prev) => {
         const position = prev.indexOf(checkbox.value);
-        return prev.toSpliced(position, 1);
+        if (position != -1) return prev.toSpliced(position, 1);
       });
     }
   };
