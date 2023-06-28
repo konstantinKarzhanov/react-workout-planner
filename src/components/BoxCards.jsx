@@ -9,7 +9,7 @@ const BoxCards = ({ xPosition, cardWidth, data }) => {
   };
 
   return (
-    <div style={styleObj} className="box--cards">
+    <div style={styleObj} className="box--cards flex flex--ai-c">
       {data.map((item, index) => {
         return (
           <Card

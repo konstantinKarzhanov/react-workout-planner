@@ -1,0 +1,18 @@
+.form-muscle-groups {
+  padding-inline: var(--pad-y);
+}
+
+/* For each Checkbox Label */
+.form-muscle-groups > label {
+  cursor: pointer;
+}
+
+/* .form-muscle-groups > *:last-child {
+  display: none;
+} */
+
+/* Selected State of Checkbox */
+.form-muscle-groups > label.selected {
+  background-color: var(--c--accent-2);
+  color: var(--c--accent-1);
+}
