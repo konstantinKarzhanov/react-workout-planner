@@ -1,13 +1,10 @@
-import React, { useState } from "react";
-import "./css/exercise_header.css";
+import React from "react";
 
-const ExerciseHeader = () => {
+const ExerciseHeader = ({ headerValue }) => {
   return (
-    <>
-      <div className="exercise-header">
-        <p className="exercise-header-txt">Exercise Group</p>
-      </div>
-    </>
+    <h2 className="pad--t1 text-center text-capital text--white bg-c--accent-3">
+      {headerValue}
+    </h2>
   );
 };
 

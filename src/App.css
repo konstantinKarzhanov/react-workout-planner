@@ -1,1 +1,281 @@
+/* ------------- */
+/* css-variables */
+/* ------------- */
+:root {
+  /* fonts */
+  --ff-sans-normal: "Kanit", sans-serif;
 
+  /* font-sizes */
+  --f--xs: 1.25rem;
+  --f--s: 1.5rem;
+  --f--m: 2rem;
+  --f--l: 3rem;
+  --f--xl: 4rem;
+
+  /* font-weight */
+  --fw--200: 200;
+  --fw--300: 300;
+  --fw--400: 400;
+  --fw--500: 500;
+
+  /* spacing */
+  --pad-x: 3rem;
+  --pad-y: 3rem;
+  --pad-1: 1em;
+  /* --pad-label: 1em; */
+  --flow-space--xs: 0.625rem;
+  --flow-space--s: 1rem;
+  --flow-space--m: 1.25rem;
+  --flow-space--l: 2rem;
+  --flow-space--xl: 3rem;
+
+  /* sizes */
+  --btn-carousel: 3rem;
+
+  /* colors */
+  --c--black: rgb(0, 0, 0);
+  --c--white: rgb(255, 255, 255);
+  --c--accent-1: rgb(87, 79, 198);
+  --c--accent-2: rgb(9, 215, 153);
+  --c--accent-3: rgb(54, 50, 50);
+  --c--accent-4: rgb(93, 93, 94);
+  --c--body: var(--c--white);
+
+  /* grid */
+  --grid--col: repeat(5, 1fr);
+  --grid--row: repeat(auto, 1fr);
+  --grid--gap: 1.2rem;
+
+  /* border-radius */
+  --radius: 0.5rem;
+}
+
+/* --------------- */
+/* Utility classes */
+/* --------------- */
+.d-block {
+  display: block;
+}
+
+.d-i-block {
+  display: inline-block;
+}
+
+.b-radius {
+  border-radius: var(--radius);
+}
+
+.sr-only {
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  /* added line start */
+  white-space: nowrap;
+  /* added line end */
+  border: none;
+}
+
+/* grid */
+.grid {
+  display: grid;
+}
+
+.grid-container {
+  grid-template-columns: var(--grid--col);
+  grid-template-rows: var(--grid--row);
+}
+
+.grid-gap--a {
+  gap: var(--grid--gap);
+}
+
+/* flexbox */
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex--d-col {
+  flex-direction: column;
+}
+
+.flex--ai-c {
+  align-items: center;
+}
+
+.flex--ai-s {
+  align-items: flex-start;
+}
+
+.flex--ai-e {
+  align-items: flex-end;
+}
+
+.flex--as-c {
+  align-self: center;
+}
+
+.flex--jc-c {
+  justify-content: center;
+}
+
+.flex--jc-ev {
+  justify-content: space-evenly;
+}
+
+.flex--jc-sb {
+  justify-content: space-between;
+}
+
+.flex--gap {
+  gap: var(--gap);
+}
+
+.flex--50 {
+  flex: 1 1 50%;
+}
+
+/* padding */
+.pad--t1 {
+  padding: 1em;
+}
+
+/* spacing */
+.flow-spacing--xs > * + * {
+  margin-top: var(--flow-space--xs);
+}
+
+.flow-spacing--s > * + * {
+  margin-top: var(--flow-space--s);
+}
+
+.flow-spacing--m > * + * {
+  margin-top: var(--flow-space--m);
+}
+
+.flow-spacing--l > * + * {
+  margin-top: var(--flow-space--l);
+}
+
+.flow-spacing--xl > * + * {
+  margin-top: var(--flow-space--xl);
+}
+
+/* typography */
+.text-capital {
+  text-transform: capitalize;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* line-height */
+.lh--text-size {
+  line-height: 1;
+}
+
+.lh--text-double {
+  line-height: 2;
+}
+
+/* font-family */
+.ff-sans-normal {
+  font-family: var(--ff-sans-normal);
+}
+
+/* font size */
+.fs--xs {
+  font-size: var(--f--xs);
+}
+
+.fs--s {
+  font-size: var(--f--s);
+}
+
+.fs--m {
+  font-size: var(--f--m);
+}
+
+.fs--l {
+  font-size: var(--f--l);
+}
+
+.fs--xl {
+  font-size: var(--f--xl);
+}
+
+/* font weight */
+.fw--200 {
+  font-weight: var(--fw--200);
+}
+
+.fw--300 {
+  font-weight: var(--fw--300);
+}
+
+.fw--400 {
+  font-weight: var(--fw--400);
+}
+
+.fw--500 {
+  font-weight: var(--fw--500);
+}
+
+/* background color */
+.bg-c--accent-1 {
+  background-color: var(--c--accent-1);
+}
+
+.bg-c--accent-2 {
+  background-color: var(--c--accent-2);
+}
+
+.bg-c--accent-3 {
+  background-color: var(--c--accent-3);
+}
+
+.bg-c--accent-4 {
+  background-color: var(--c--accent-4);
+}
+
+/* font color */
+.text--white {
+  color: var(--c--white);
+}
+
+/* containers */
+.container {
+  margin: 0 auto;
+  max-width: 90rem;
+  border: 1px solid var(--c--accent-1);
+}
+
+.container--px {
+  padding-left: var(--pad-x);
+  padding-right: var(--pad-x);
+}
+
+.container--py {
+  padding-top: var(--pad-y);
+  padding-bottom: var(--pad-y);
+}
+
+.container--pall {
+  padding: var(--pad-x) var(--pad-y);
+}
