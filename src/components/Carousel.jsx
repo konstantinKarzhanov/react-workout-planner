@@ -6,8 +6,8 @@ const Carousel = ({ data, setSelectedCardsArr }) => {
   const [x, setX] = useState(0);
   const [count, setCount] = useState(0);
 
-  const slideStep = 2;
-  const numVisibleCards = 3;
+  const slideStep = 3;
+  const numVisibleCards = 4;
   const cardWidth = 100 / numVisibleCards;
   const endPoint = (data.length - numVisibleCards) / slideStep;
 
@@ -77,7 +77,7 @@ const Carousel = ({ data, setSelectedCardsArr }) => {
       onClick={(event) => {
         handleClickCarousel(event);
       }}
-      className="carousel"
+      className="flex carousel bg-c--accent-3"
     >
       <Button classValue="btn-carousel prev" value="<" />
       <BoxCards xPosition={x} cardWidth={cardWidth} data={data} />
