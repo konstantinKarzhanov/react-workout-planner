@@ -10,6 +10,9 @@ body {
   margin-bottom: 1rem;
   display: flex;
   overflow: hidden;
+  width: 1512px;
+  margin: auto;
+  margin-bottom: 120px;
 }
 
 .box--cards {
@@ -33,16 +36,23 @@ body {
 }
 
 .btn-carousel {
+  /* Next/Previous Button */
   margin: 0.25rem 0;
   width: var(--btn-carousel-size);
-  background-color: magenta;
+  background-color: #574fc6;
+  color: white;
+  font-size: 40px;
   border: none;
   cursor: pointer;
   z-index: 1;
 }
 
+.btn-carousel:hover {
+  background-color: #5d5d5e;
+}
+
 .btn-carousel:active {
-  background-color: lightgreen;
+  background-color: #4b43bd;
 }
 
 .btn-generate {
@@ -58,6 +68,7 @@ body {
 }
 
 .sr-only {
+  /* Screen reader hidden checkbox */
   margin: -1px;
   padding: 0;
   position: absolute;
@@ -72,20 +83,37 @@ body {
 }
 
 .selected {
-  border: 2px solid magenta;
-  filter: blur(5px);
+  /* Selected State of Checkbox */
+  background-color: rgb(9, 215, 153) !important;
+  color: black !important;
 }
 
 .form-groups {
-  margin-bottom: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: space-evenly;
-  border: 2px solid rebeccapurple;
+  /* For Checkbox Container */
+  margin-bottom: 6rem;
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.2rem;
 }
 
 .form-groups > label {
-  padding: 1rem;
-  background-color: lightgreen;
+  /* For each Checkbox Label */
+  padding: 0.9rem;
+  background-color: #574fc6;
+  color: white;
+  border-radius: 8px;
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-groups > label[for="group-19"] {
+  display: none;
 }
