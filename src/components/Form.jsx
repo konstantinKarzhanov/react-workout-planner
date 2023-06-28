@@ -1,5 +1,6 @@
 import React from "react";
 import FormElement from "./FormElement";
+import "./css/form.css";
 
 const Form = ({ onClick, data }) => {
   return (
