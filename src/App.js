@@ -13,28 +13,30 @@ import "./components/css/_carousel.css";
 import allExercisesJSON from "./components/json/allExercises.json";
 
 const App = () => {
-  const apiUrl = "https://exercisedb.p.rapidapi.com/exercises";
-  const apiOptions = {
-    method: "GET",
-    headers: {
-      "X-RapidAPI-Key": "4a8554f7a1mshbdce340f82597c2p12b5edjsndffa189d570f",
-      "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
-    },
-  };
+  // const apiUrl = "https://exercisedb.p.rapidapi.com/exercises";
+  // const apiOptions = {
+  //   method: "GET",
+  //   headers: {
+  //     "X-RapidAPI-Key": "4a8554f7a1mshbdce340f82597c2p12b5edjsndffa189d570f",
+  //     "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
+  //   },
+  // };
 
-  const fetchData = async (url, options) => {
-    const request = await fetch(url, options);
-    const response = await request.json();
-    const dataArr = response.map(({ bodyPart, gifUrl, name, target }) => {
-      return { bodyPart, gifUrl, name, target };
-    });
+  // const fetchData = async (url, options) => {
+  //   const request = await fetch(url, options);
+  //   const response = await request.json();
+  //   // const response = await request.text();
+  //   // console.log(response);
+  //   const dataArr = response.map(({ bodyPart, gifUrl, name, target }) => {
+  //     return { bodyPart, gifUrl, name, target };
+  //   });
 
-    setData(dataArr);
-  };
+  //   setData(dataArr);
+  // };
 
-  useEffect(() => {
-    fetchData(apiUrl, apiOptions);
-  }, []);
+  // useEffect(() => {
+  //   fetchData(apiUrl, apiOptions);
+  // }, []);
 
   const [dataArr, setData] = useState([]);
   const [groupsArr, setGroups] = useState([]);
