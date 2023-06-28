@@ -1,15 +1,13 @@
 import React, { useState, useEffect } from "react";
 
 import Header from "./components/Header";
-import MainText from "./components/MainText";
 import ExerciseHeader from "./components/ExerciseHeader";
-import ClearButton from "./components/ClearButton";
 
 import Form from "./components/Form";
 import Carousel from "./components/Carousel";
 
 import "./App.css";
-import "./components/css/_carousel.css";
+import "./components/css/carousel.css";
 import allExercisesJSON from "./components/json/allExercises.json";
 
 const App = () => {
@@ -83,34 +81,33 @@ const App = () => {
   };
 
   return (
-    <>
+    <div className="container flow-spacing--l">
       <Header />
-      <MainText />
-
-      <section>
-        <Form
-          onClick={(event) => {
-            handleClickForm(event);
-          }}
-          data={groupsArr}
-        />
-      </section>
-      <section>
-        {selectedGroupsArr.map((item, index) => (
-          <>
-            <ExerciseHeader />
-            <Carousel
-              key={index}
-              data={dataArr.reduce((acc, current) => {
-                current.target === item && acc.push(current);
-                return acc;
-              }, [])}
-              setSelectedCardsArr={setSelectedCardsArr}
-            />
-          </>
-        ))}
-      </section>
-    </>
+      <main className="flow-spacing--xl">
+        <section>
+          <Form
+            onClick={(event) => {
+              handleClickForm(event);
+            }}
+            data={groupsArr}
+          />
+        </section>
+        <article className="flow-spacing--l bg-c--accent-2">
+          {selectedGroupsArr.map((item, index) => (
+            <section key={index}>
+              <ExerciseHeader headerValue={item} />
+              <Carousel
+                data={dataArr.reduce((acc, current) => {
+                  current.target === item && acc.push(current);
+                  return acc;
+                }, [])}
+                setSelectedCardsArr={setSelectedCardsArr}
+              />
+            </section>
+          ))}
+        </article>
+      </main>
+    </div>
   );
 };
 
