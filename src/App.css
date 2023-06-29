@@ -279,3 +279,7 @@
 .container--pall {
   padding: var(--pad-x) var(--pad-y);
 }
+
+h3 {
+  color: var(--c--white);
+}
