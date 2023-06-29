@@ -329,6 +329,10 @@
 /* --------------- */
 /* Other classes   */
 /* --------------- */
+h3 {
+  color: var(--c--white);
+}
+
 body[data-blocked-scroll="true"] {
   overflow: hidden;
 }
