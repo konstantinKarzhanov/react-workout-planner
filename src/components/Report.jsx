@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/report.css";
 
 const Report = ({ isVisibleReport, data }) => {
   // Categorize workouts by muscle groups
@@ -11,16 +12,18 @@ const Report = ({ isVisibleReport, data }) => {
     return acc;
   }, {});
   return (
-    <div className="report" data-active={isVisibleReport}>
+    <div className="report text-capital" data-active={isVisibleReport}>
       {Object.entries(categorizedData).map(
         ([categorizedDataKey, categorizedDataValue], index) => (
-          <div key={index}>
-            <h2>{categorizedDataKey}</h2>
-            <ul>
+          <div className="container--py" key={index}>
+            <h2 className="title text-capital text-center">
+              {categorizedDataKey}
+            </h2>
+            <ul className="list">
               {categorizedDataValue.map((item, index) => (
-                <li key={index}>
+                <li className="list-item text-capital text-center" key={index}>
                   {item.name}{" "}
-                  <span className="text--accent-1">{`(${item.target})`}</span>
+                  <span className="text--accent-1 text-capital">{`(${item.target})`}</span>
                 </li>
               ))}
             </ul>
