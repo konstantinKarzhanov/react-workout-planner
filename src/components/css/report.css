@@ -3,9 +3,8 @@
   top: 0;
   left: -100%;
   z-index: 3;
-  width: 80vw;
+  width: 85vw;
   height: 100vh;
-  background-color: var(--c--report-1);
   transition: left 400ms ease-in-out;
 }
 
@@ -17,9 +16,8 @@
   (-webkit-backdrop-filter: blur(1.25rem)) or (backdrop-filter: blur(1.25rem))
 ) {
   .report {
-    background-color: var(--c--report-2);
-    -webkit-backdrop-filter: blur(1.25rem);
-    backdrop-filter: blur(1.25rem);
+    -webkit-backdrop-filter: blur(1.55rem);
+    backdrop-filter: blur(1.55rem);
   }
 }
 
@@ -40,4 +38,13 @@
 
 .btn-report[data-visible-report] {
   background-image: var(--c--fancy-2);
+}
+
+.title {
+  font-size: var(--f--xl);
+}
+
+.list-item {
+  font-size: var(--f--m);
+  line-height: 120%;
 }
