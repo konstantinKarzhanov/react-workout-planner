@@ -1,12 +1,16 @@
 .card {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 5fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  --grid--col: 1fr;
+  --grid--row: auto 1fr;
+  height: 100%;
+}
+
+.card > h3 {
+  --border-inline: 1px;
+  border-left: var(--border-inline) solid currentColor;
+  border-right: var(--border-inline) solid currentColor;
 }
 
 .card > .selected {
-  border: 15px solid var(--c--accent-2);
-  filter: blur(1px);
+  filter: invert(1);
+  border: 1px solid var(--c--accent-2-inv);
 }
