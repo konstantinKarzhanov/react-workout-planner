@@ -40,6 +40,7 @@
   --c--report-2: rgba(255, 255, 255, 0.04);
   --c--accent-1: rgb(87, 79, 198);
   --c--accent-2: rgb(9, 215, 153);
+  --c--accent-2-inv: rgb(171 27 99);
   --c--accent-3: rgb(54, 50, 50);
   --c--accent-4: rgb(93, 93, 94);
   --c--accent-5: rgb(255, 112, 236);
@@ -118,6 +119,10 @@
 
 .flex--d-col {
   flex-direction: column;
+}
+
+.flex--d-col-r {
+  flex-direction: column-reverse;
 }
 
 .flex--ai-c {
@@ -329,10 +334,6 @@
 /* --------------- */
 /* Other classes   */
 /* --------------- */
-h3 {
-  color: var(--c--white);
-}
-
 body[data-blocked-scroll="true"] {
   overflow: hidden;
 }

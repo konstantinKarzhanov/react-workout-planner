@@ -11,14 +11,14 @@ const Card = ({ idValue, cardWidth, srcUrl, checkboxValue }) => {
   };
 
   return (
-    <div style={styleObj} className="card">
-      <ExerciseTitle title={checkboxValue} />
+    <div style={styleObj} className="card grid grid-container">
       <Image srcUrl={srcUrl} altText={checkboxValue} />
       <Checkbox
         idValue={idValue}
         classValue="sr-only"
         checkboxValue={checkboxValue}
       />
+      <ExerciseTitle title={checkboxValue} />
     </div>
   );
 };
