@@ -4,6 +4,7 @@
 
 /* For each Checkbox Label */
 .form-muscle-groups > label {
+  position: relative;
   cursor: pointer;
 }
 
@@ -14,5 +15,4 @@
 /* Selected State of Checkbox */
 .form-muscle-groups > label.selected {
   background-color: var(--c--accent-2);
-  color: var(--c--accent-1);
 }

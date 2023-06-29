@@ -5,9 +5,12 @@ import ExerciseHeader from "./components/ExerciseHeader";
 
 import Form from "./components/Form";
 import Carousel from "./components/Carousel";
+import Button from "./components/Button";
+import Report from "./components/Report";
 
 import "./App.css";
 import "./components/css/carousel.css";
+import "./components/css/report.css";
 import allExercisesJSON from "./components/json/allExercises.json";
 
 const App = () => {
@@ -23,27 +26,29 @@ const App = () => {
   // const fetchData = async (url, options) => {
   //   const request = await fetch(url, options);
   //   const response = await request.json();
-  //   // const response = await request.text();
-  //   // console.log(response);
   //   const dataArr = response.map(({ bodyPart, gifUrl, name, target }) => {
   //     return { bodyPart, gifUrl, name, target };
   //   });
 
-  //   setData(dataArr);
+  //   setDataArr(dataArr);
   // };
 
   // useEffect(() => {
   //   fetchData(apiUrl, apiOptions);
   // }, []);
+  const body = document.querySelector("body");
 
-  const [dataArr, setData] = useState([]);
-  const [groupsArr, setGroups] = useState([]);
+  const [dataArr, setDataArr] = useState([]);
+  const [groupsArr, setGroupsArr] = useState([]);
 
   const [selectedGroupsArr, setSelectedGroupsArr] = useState([]);
   const [selectedCardsArr, setSelectedCardsArr] = useState([]);
 
+  const [isVisibleReport, setIsVisibleReport] = useState(false);
+  body.dataset.blockedScroll = isVisibleReport;
+
   useEffect(() => {
-    setData(
+    setDataArr(
       allExercisesJSON.map(({ bodyPart, gifUrl, name, target }) => {
         return { bodyPart, gifUrl, name, target };
       })
@@ -51,18 +56,13 @@ const App = () => {
   }, []);
 
   useEffect(() => {
-    setGroups(
+    setGroupsArr(
       dataArr.reduce((acc, { target }) => {
         !acc.includes(target) && acc.push(target);
         return acc;
       }, [])
     );
-    console.log(groupsArr);
   }, [dataArr]);
-
-  useEffect(() => {
-    console.log(selectedCardsArr);
-  }, [selectedCardsArr]);
 
   const handleClickForm = (event) => {
     const target = event.target.closest('[id^="group-"]');
@@ -74,40 +74,63 @@ const App = () => {
     } else {
       setSelectedGroupsArr((prev) => {
         const position = prev.indexOf(parent.textContent);
-        if (position != -1) return prev.toSpliced(position, 1);
+        if (position !== -1) return prev.toSpliced(position, 1);
       });
     }
     parent.classList.toggle("selected");
   };
 
+  const handleClickBtnReport = () => {
+    setIsVisibleReport(!isVisibleReport);
+  };
+
   return (
-    <div className="container flow-spacing--l">
-      <Header />
-      <main className="flow-spacing--xl">
-        <section>
-          <Form
-            onClick={(event) => {
-              handleClickForm(event);
-            }}
-            data={groupsArr}
-          />
-        </section>
-        <article className="flow-spacing--l bg-c--accent-2">
-          {selectedGroupsArr.map((item, index) => (
-            <section key={index}>
-              <ExerciseHeader headerValue={item} />
-              <Carousel
-                data={dataArr.reduce((acc, current) => {
-                  current.target === item && acc.push(current);
-                  return acc;
-                }, [])}
-                setSelectedCardsArr={setSelectedCardsArr}
+    <>
+      <div
+        className="overlap"
+        {...(isVisibleReport ? { "data-active": "" } : {})}
+      ></div>
+      <div className="container flow-spacing--l">
+        <Header />
+        <main className="flow-spacing--xl">
+          <section>
+            <Form
+              onClick={(event) => {
+                handleClickForm(event);
+              }}
+              data={groupsArr}
+            />
+          </section>
+          <article className="flow-spacing--l bg-c--accent-2">
+            {selectedGroupsArr.map((item, index) => (
+              <section key={index}>
+                <ExerciseHeader headerValue={item} />
+                <Carousel
+                  data={dataArr.reduce((acc, current) => {
+                    current.target === item && acc.push(current);
+                    return acc;
+                  }, [])}
+                  setSelectedCardsArr={setSelectedCardsArr}
+                />
+              </section>
+            ))}
+          </article>
+          <section className="m--0">
+            {selectedCardsArr.length > 0 && (
+              <Button
+                onClick={handleClickBtnReport}
+                classValue="btn-report fs--xxxs text-capital b-radius"
+                datasetValue={isVisibleReport && "data-visible-report"}
+                value={`${
+                  !isVisibleReport ? "see selected exercises" : "close report"
+                }`}
               />
-            </section>
-          ))}
-        </article>
-      </main>
-    </div>
+            )}
+            <Report isVisibleReport={isVisibleReport} data={selectedCardsArr} />
+          </section>
+        </main>
+      </div>
+    </>
   );
 };
 
