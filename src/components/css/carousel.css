@@ -12,6 +12,7 @@
   --pad-card: 0.25rem;
   padding-inline: calc(var(--pad-card) / 2);
   padding-block: var(--pad-card);
+  position: relative;
   cursor: pointer;
 }
 
