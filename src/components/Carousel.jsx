@@ -51,12 +51,12 @@ const Carousel = ({ data, setSelectedCardsArr }) => {
 
     if (checkbox.checked) {
       setSelectedCardsArr((prev) =>
-        prev.concat(data.filter((item) => item.name == checkbox.value))
+        prev.concat(data.filter((item) => item.name === checkbox.value))
       );
     } else {
       setSelectedCardsArr((prev) => {
-        const position = prev.findIndex((item) => item.name == checkbox.value);
-        if (position != -1) return prev.toSpliced(position, 1);
+        const position = prev.findIndex((item) => item.name === checkbox.value);
+        if (position !== -1) return prev.toSpliced(position, 1);
       });
     }
   };

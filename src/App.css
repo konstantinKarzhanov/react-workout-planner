@@ -6,6 +6,8 @@
   --ff-sans-normal: "Kanit", sans-serif;
 
   /* font-sizes */
+  --f--xxxs: 0.875rem;
+  --f--xxs: 1rem;
   --f--xs: 1.25rem;
   --f--s: 1.5rem;
   --f--m: 2rem;
@@ -22,7 +24,6 @@
   --pad-x: 3rem;
   --pad-y: 3rem;
   --pad-1: 1em;
-  /* --pad-label: 1em; */
   --flow-space--xs: 0.625rem;
   --flow-space--s: 1rem;
   --flow-space--m: 1.25rem;
@@ -35,10 +36,23 @@
   /* colors */
   --c--black: rgb(0, 0, 0);
   --c--white: rgb(255, 255, 255);
+  --c--report-1: rgba(12, 14, 24, 0.9);
+  --c--report-2: rgba(255, 255, 255, 0.04);
   --c--accent-1: rgb(87, 79, 198);
   --c--accent-2: rgb(9, 215, 153);
   --c--accent-3: rgb(54, 50, 50);
   --c--accent-4: rgb(93, 93, 94);
+  --c--accent-5: rgb(255, 112, 236);
+  --c--fancy-1: linear-gradient(
+    130deg,
+    rgba(9, 215, 153, 1) 0%,
+    rgba(87, 79, 198, 1) 100%
+  );
+  --c--fancy-2: linear-gradient(
+    130deg,
+    rgb(255, 112, 236) 0%,
+    rgba(87, 79, 198, 1) 100%
+  );
   --c--body: var(--c--white);
 
   /* grid */
@@ -144,7 +158,7 @@
 
 /* padding */
 .pad--t1 {
-  padding: 1em;
+  padding: var(--pad-1);
 }
 
 /* spacing */
@@ -166,6 +180,10 @@
 
 .flow-spacing--xl > * + * {
   margin-top: var(--flow-space--xl);
+}
+
+.m--0 {
+  margin: 0;
 }
 
 /* typography */
@@ -200,6 +218,14 @@
 }
 
 /* font size */
+.fs--xxxs {
+  font-size: var(--f--xxxs);
+}
+
+.fs--xxs {
+  font-size: var(--f--xxs);
+}
+
 .fs--xs {
   font-size: var(--f--xs);
 }
@@ -254,9 +280,29 @@
   background-color: var(--c--accent-4);
 }
 
+.bg-c--accent-5 {
+  background-color: var(--c--accent-5);
+}
+
+.bg-c--fancy-1 {
+  background-image: var(--c--fancy-1);
+}
+
+.bg-c--fancy-2 {
+  background-image: var(--c--fancy-2);
+}
+
 /* font color */
 .text--white {
   color: var(--c--white);
+}
+
+.text--accent-1 {
+  color: var(--c--accent-1);
+}
+
+.text--accent-2 {
+  color: var(--c--accent-2);
 }
 
 /* containers */
@@ -280,6 +326,25 @@
   padding: var(--pad-x) var(--pad-y);
 }
 
+/* --------------- */
+/* Other classes   */
+/* --------------- */
 h3 {
   color: var(--c--white);
+}
+
+body[data-blocked-scroll="true"] {
+  overflow: hidden;
+}
+
+.overlap {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+
+.overlap[data-active] {
+  visibility: visible;
 }
