@@ -1,13 +1,13 @@
 import React from "react";
-import "./css/header.css";
 
 const Header = () => {
   return (
-    <>
-      <div id="main-header">
-        <p id="header-text">Workout Planner</p>
-      </div>
-    </>
+    <header className="flow-spacing--l text-center lh--text-size fs--l">
+      <h1 className="pad--t1 fs--xl fw--500 text--white bg-c--accent-1">
+        Workout Planner
+      </h1>
+      <p>Select One or More Exercise Groups</p>
+    </header>
   );
 };
 

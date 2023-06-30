@@ -1,0 +1,16 @@
+.card {
+  --grid--col: 1fr;
+  --grid--row: auto 1fr;
+  height: 100%;
+}
+
+.card > h3 {
+  --border-inline: 1px;
+  border-left: var(--border-inline) solid currentColor;
+  border-right: var(--border-inline) solid currentColor;
+}
+
+.card > .selected {
+  filter: invert(1);
+  border: 1px solid var(--c--accent-2-inv);
+}

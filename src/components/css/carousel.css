@@ -1,0 +1,40 @@
+.carousel {
+  overflow: hidden;
+}
+
+.box--cards {
+  width: calc(100% - 2 * var(--btn-carousel));
+  transform: translateX(0);
+  transition: transform 500ms ease-in-out;
+}
+
+.card {
+  --pad-card: 0.25rem;
+  padding-inline: calc(var(--pad-card) / 2);
+  padding-block: var(--pad-card);
+  position: relative;
+  cursor: pointer;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.btn-carousel {
+  /* Next/Previous Button */
+  width: var(--btn-carousel);
+  font-size: 2rem;
+  color: var(--c--white);
+  background-color: var(--c--accent-1);
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.btn-carousel:hover {
+  background-color: var(--c--accent-4);
+}
+
+.btn-carousel:active {
+  background-color: var(--c--accent-1);
+}
