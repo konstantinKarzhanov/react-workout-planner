@@ -126,7 +126,11 @@ const App = () => {
                 }`}
               />
             )}
-            <Report isVisibleReport={isVisibleReport} data={selectedCardsArr} />
+            <Report
+              isVisibleReport={isVisibleReport}
+              titleValue="Your workout plan"
+              data={selectedCardsArr}
+            />
           </section>
         </main>
       </div>

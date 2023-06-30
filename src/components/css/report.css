@@ -1,11 +1,15 @@
 .report {
+  --pad-x: 3rem;
+  --pad-y: 3rem;
   position: fixed;
   top: 0;
   left: -100%;
   z-index: 3;
   width: 85vw;
   height: 100vh;
+  background-color: var(--c--report-1);
   transition: left 400ms ease-in-out;
+  overflow: scroll;
 }
 
 .report[data-active="true"] {
@@ -16,15 +20,29 @@
   (-webkit-backdrop-filter: blur(1.25rem)) or (backdrop-filter: blur(1.25rem))
 ) {
   .report {
-    -webkit-backdrop-filter: blur(1.55rem);
-    backdrop-filter: blur(1.55rem);
+    background-color: var(--c--report-2);
+    -webkit-backdrop-filter: blur(1.25rem);
+    backdrop-filter: blur(1.25rem);
   }
+}
+
+.report h2 {
+  border-bottom: 1px solid var(--c--accent-1);
+}
+
+.report ul {
+  padding-left: 1.5rem;
+}
+
+.report > * {
+  --pad-x: 0.625rem;
+  --pad-y: 0.625rem;
 }
 
 .btn-report {
   --pos: 2rem;
-  padding-block: 1em;
-  padding-inline: 2em;
+  padding-block: 1.5em;
+  padding-inline: 3em;
   position: fixed;
   bottom: var(--pos);
   right: var(--pos);
@@ -38,13 +56,4 @@
 
 .btn-report[data-visible-report] {
   background-image: var(--c--fancy-2);
-}
-
-.title {
-  font-size: var(--f--xl);
-}
-
-.list-item {
-  font-size: var(--f--m);
-  line-height: 120%;
 }

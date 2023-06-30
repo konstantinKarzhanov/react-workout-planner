@@ -3,8 +3,9 @@ import Card from "./Card";
 
 const BoxCards = ({ xPosition, cardWidth, data }) => {
   const styleObj = {
-    transform: `translateX(${(Math.abs(xPosition) < 0.0001 ? 0 : xPosition) *
-      cardWidth}%)`,
+    transform: `translateX(${
+      (Math.abs(xPosition) < 0.0001 ? 0 : xPosition) * cardWidth
+    }%)`,
   };
 
   return (

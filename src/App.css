@@ -37,7 +37,7 @@
   --c--black: rgb(0, 0, 0);
   --c--white: rgb(255, 255, 255);
   --c--report-1: rgba(12, 14, 24, 0.9);
-  --c--report-2: rgba(255, 255, 255, 0.04);
+  --c--report-2: rgba(255, 255, 255, 0.5);
   --c--accent-1: rgb(87, 79, 198);
   --c--accent-2: rgb(9, 215, 153);
   --c--accent-2-inv: rgb(171 27 99);
@@ -58,7 +58,7 @@
 
   /* grid */
   --grid--col: repeat(5, 1fr);
-  --grid--row: repeat(auto, 1fr);
+  --grid--row: auto;
   --grid--gap: 1.2rem;
 
   /* border-radius */
@@ -308,6 +308,18 @@
 
 .text--accent-2 {
   color: var(--c--accent-2);
+}
+
+.text--accent-3 {
+  color: var(--c--accent-3);
+}
+
+.text--accent-4 {
+  color: var(--c--accent-4);
+}
+
+.text--accent-5 {
+  color: var(--c--accent-5);
 }
 
 /* containers */

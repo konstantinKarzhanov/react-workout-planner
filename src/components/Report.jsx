@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/report.css";
 
-const Report = ({ isVisibleReport, data }) => {
+const Report = ({ isVisibleReport, titleValue, data }) => {
   // Categorize workouts by muscle groups
   const categorizedData = data.reduce((acc, current) => {
     const { bodyPart } = current;
@@ -11,19 +11,26 @@ const Report = ({ isVisibleReport, data }) => {
     acc[bodyPart].push(current);
     return acc;
   }, {});
+
   return (
-    <div className="report text-capital" data-active={isVisibleReport}>
+    <div
+      className="report container--pall text-capital"
+      data-active={isVisibleReport}
+    >
+      <h2 className="container--pall fs--m fw--500 text--accent-5">
+        {titleValue}
+      </h2>
       {Object.entries(categorizedData).map(
         ([categorizedDataKey, categorizedDataValue], index) => (
-          <div className="container--py" key={index}>
-            <h2 className="title text-capital text-center">
+          <div key={index} className="container--pall">
+            <h3 className="fs--s fw--400 text--accent-1">
               {categorizedDataKey}
-            </h2>
-            <ul className="list">
+            </h3>
+            <ul className="fw--300">
               {categorizedDataValue.map((item, index) => (
-                <li className="list-item text-capital text-center" key={index}>
+                <li key={index}>
                   {item.name}{" "}
-                  <span className="text--accent-1 text-capital">{`(${item.target})`}</span>
+                  <span className="text--accent-1">{`(${item.target})`}</span>
                 </li>
               ))}
             </ul>
