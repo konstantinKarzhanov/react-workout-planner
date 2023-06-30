@@ -11,31 +11,35 @@ import Report from "./components/Report";
 import "./App.css";
 import "./components/css/carousel.css";
 import "./components/css/report.css";
-import allExercisesJSON from "./components/json/allExercises.json";
+// --------------------
+// for backup purposes
+// --------------------
+// import allExercisesJSON from "./components/json/allExercises.json";
 
 const App = () => {
-  // const apiUrl = "https://exercisedb.p.rapidapi.com/exercises";
-  // const apiOptions = {
-  //   method: "GET",
-  //   headers: {
-  //     "X-RapidAPI-Key": "4a8554f7a1mshbdce340f82597c2p12b5edjsndffa189d570f",
-  //     "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
-  //   },
-  // };
+  const apiUrl = "https://exercisedb.p.rapidapi.com/exercises";
+  const apiOptions = {
+    method: "GET",
+    headers: {
+      "X-RapidAPI-Key": "4a8554f7a1mshbdce340f82597c2p12b5edjsndffa189d570f",
+      "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
+    },
+  };
 
-  // const fetchData = async (url, options) => {
-  //   const request = await fetch(url, options);
-  //   const response = await request.json();
-  //   const dataArr = response.map(({ bodyPart, gifUrl, name, target }) => {
-  //     return { bodyPart, gifUrl, name, target };
-  //   });
+  const fetchData = async (url, options) => {
+    const request = await fetch(url, options);
+    const response = await request.json();
+    const dataArr = response.map(({ bodyPart, gifUrl, name, target }) => {
+      return { bodyPart, gifUrl, name, target };
+    });
 
-  //   setDataArr(dataArr);
-  // };
+    setDataArr(dataArr);
+  };
 
-  // useEffect(() => {
-  //   fetchData(apiUrl, apiOptions);
-  // }, []);
+  useEffect(() => {
+    fetchData(apiUrl, apiOptions);
+  }, []);
+
   const body = document.querySelector("body");
 
   const [dataArr, setDataArr] = useState([]);
@@ -47,13 +51,16 @@ const App = () => {
   const [isVisibleReport, setIsVisibleReport] = useState(false);
   body.dataset.blockedScroll = isVisibleReport;
 
-  useEffect(() => {
-    setDataArr(
-      allExercisesJSON.map(({ bodyPart, gifUrl, name, target }) => {
-        return { bodyPart, gifUrl, name, target };
-      })
-    );
-  }, []);
+  // --------------------
+  // for backup purposes
+  // --------------------
+  // useEffect(() => {
+  //   setDataArr(
+  //     allExercisesJSON.map(({ bodyPart, gifUrl, name, target }) => {
+  //       return { bodyPart, gifUrl, name, target };
+  //     })
+  //   );
+  // }, []);
 
   useEffect(() => {
     setGroupsArr(
