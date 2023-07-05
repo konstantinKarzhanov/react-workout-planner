@@ -361,3 +361,8 @@ body[data-blocked-scroll="true"] {
 .overlap[data-active] {
   visibility: visible;
 }
+
+article > *:last-child {
+  --p--b: var(--flow-space--l);
+  padding-bottom: var(--p--b);
+}

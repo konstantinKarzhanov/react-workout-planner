@@ -7,6 +7,7 @@ import Form from "./components/Form";
 import Carousel from "./components/Carousel";
 import Button from "./components/Button";
 import Report from "./components/Report";
+import Footer from "./components/Footer";
 
 import "./App.css";
 import "./components/css/carousel.css";
@@ -140,6 +141,7 @@ const App = () => {
             />
           </section>
         </main>
+        <Footer />
       </div>
     </>
   );
