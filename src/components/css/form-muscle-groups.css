@@ -6,18 +6,18 @@
 .form-muscle-groups > label {
   position: relative;
   box-shadow: none;
-  transition: color 400ms ease-in-out, box-shadow 400ms ease-in-out;
+  transition: color 200ms ease-in-out, box-shadow 200ms ease-in-out;
   cursor: pointer;
 }
 
 .form-muscle-groups > label:hover {
   color: var(--c--accent-2);
-  box-shadow: 0 0 10px 1px var(--c--accent-2);
+  box-shadow: 0 0 8px 1px var(--c--accent-2);
 }
 
 .form-muscle-groups > label.selected:hover {
   color: var(--c--accent-1);
-  box-shadow: 0 0 10px 1px var(--c--accent-1);
+  box-shadow: 0 0 8px 1px var(--c--accent-1);
 }
 
 /* .form-muscle-groups > *:last-child {
