@@ -49,11 +49,20 @@
   color: var(--c--white);
   background-image: var(--c--fancy-1);
   border: none;
-  transition: all 300ms ease-in-out;
+  box-shadow: none;
+  transition: all 200ms ease-in-out;
   z-index: 4;
   cursor: pointer;
 }
 
+.btn-report:hover {
+  box-shadow: 0 0 10px 5px var(--c--accent-5);
+}
+
 .btn-report[data-visible-report] {
   background-image: var(--c--fancy-2);
+}
+
+.btn-report[data-visible-report]:hover {
+  box-shadow: 0 0 10px 5px var(--c--accent-1);
 }
