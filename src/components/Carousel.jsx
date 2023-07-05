@@ -46,14 +46,15 @@ const Carousel = ({ data, setSelectedCardsArr }) => {
 
     if (!image || !checkbox) return;
 
-    image.classList.toggle("selected");
     checkbox.checked = !checkbox.checked;
 
     if (checkbox.checked) {
+      image.dataset.selected = "";
       setSelectedCardsArr((prev) =>
         prev.concat(data.filter((item) => item.name === checkbox.value))
       );
     } else {
+      "selected" in image.dataset && delete image.dataset.selected;
       setSelectedCardsArr((prev) => {
         const position = prev.findIndex((item) => item.name === checkbox.value);
         if (position !== -1) return prev.toSpliced(position, 1);
